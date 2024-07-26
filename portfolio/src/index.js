@@ -7,8 +7,6 @@ const obj = document.getElementById("root");
 const root = ReactDOM.createRoot(obj);
 root.render(
   <>
-   
-      <AboutMe />
-
+    <AboutMe />
   </>
 );

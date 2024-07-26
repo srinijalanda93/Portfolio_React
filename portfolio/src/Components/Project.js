@@ -95,8 +95,8 @@ let ProjectList = [
   },
 
   {
-    Date: "2004-PRESENT",
-    prjTitle: "Youtube clone",
+    Date: "2002-PRESENT",
+    prjTitle: "To-do List",
     content: `Advance JS
    open-source CSS framework directed
     at responsive, mobile-first front-end 
@@ -131,7 +131,7 @@ export const Project = () => {
             </div>
             <div>
               <p>{project.prjTitle}</p>
-              <p>{project.content}</p>
+              <p style={{color:"#8396BD"}}>{project.content}</p>
               <div className="language">
                 {project.programming.map((element, index) => (
                   <p key={index}>{element}</p>

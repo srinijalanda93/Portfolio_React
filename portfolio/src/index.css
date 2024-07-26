@@ -7,8 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #0f172a;
   color: white;
-  overflow: hidden; 
+  overflow: hidden;
 }
+
 /* About container */
 #container {
   display: grid;
@@ -24,14 +25,14 @@ body {
   justify-content: space-around;
   padding-inline: 10%;
   height: 100vh;
-  position:sticky;
+  position: sticky;
   top: 0;
   left: 0;
-  z-index: 1000; 
+  z-index: 1000;
 }
-.right-upper{
+.right-upper {
   /* padding: 10px;  */
-  height: 100vh; 
+  height: 100vh;
   overflow-y: auto;
 }
 .right-upper::-webkit-scrollbar {
@@ -40,9 +41,10 @@ body {
 /*IntroProfile*/
 .intro-name h1 {
   color: #c5d1ed;
-  font-size: 50px;
-  text-shadow: 1px 1px 2px whitesmoke;
+  font-size: 45px;
+  text-shadow: 1px 1px 1px whitesmoke;
   margin-block: 2px;
+  font-family: cursive;
   /* text-transform: uppercase; */
   /* font-style: italic; */
 }
@@ -71,10 +73,13 @@ body {
   display: flex;
   gap: 20px;
 }
-.mediaLins > ul li {
+/* .mediaLinks > ul li {
   color: #879abb;
   width: 10px;
   height: 20px;
+} */
+.mediaLinks > ul > li :hover {
+  box-shadow: 2px 2px 5px 7px #18274c;
 }
 /* Project css */
 .project {
@@ -86,13 +91,12 @@ body {
   align-items: start;
   gap: 20px;
   box-sizing: border-box;
-  transition: transform 0.3s ease,
-   
+  transition: transform 0.3s ease;
 }
 /*  box-shadow 0.3s ease, background-color 0.3s ease; */
 .project:hover {
   border: 1px solid rgba(255, 255, 255, 0.059);
-  box-shadow: 2px 12px 20px 20px #18274c;
+  box-shadow: 2px 2px 20px 20px #18274c;
   background-color: #18274bda;
   border-radius: 3px;
   transform: scale(0.99);
@@ -120,12 +124,14 @@ body {
   margin-block: 0px !important;
   border-radius: 6px;
 }
+
 .project > div:nth-child(2) > p:first-of-type {
   font-size: 20px;
   margin-block: 2% !important;
   font-weight: 700;
   color: #c4d1ec;
 }
+
 .language > p,
 .date p {
   cursor: pointer;
