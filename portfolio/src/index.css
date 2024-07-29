@@ -117,7 +117,7 @@ body {
 .language > p {
   background-color: #142f4c;
   color: #55d3d5;
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
   font-size: 20px;
   font-weight: 700;
   padding-inline: 1%;

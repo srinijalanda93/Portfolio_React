@@ -4,40 +4,22 @@ let ProjectList = [
   {
     Date: "2020-PRESENT",
     prjTitle: "Blinkit Clone",
-    content: `Bootstrap is a free and
-   open-source CSS framework directed
-    at responsive, mobile-first front-end 
-    web development. It contains HTML, CSS
-     and JavaScript-based design templates 
-     for typography, forms, buttons, navigation,
-      and other interface components.`,
-    programming: ["HTML", "CSS", "ADAVANCE CSS", "BOOTSTRAP"],
+    content: `A Blinkit clone was developed using HTML, CSS, media queries, and Bootstrap. The project involved creating a responsive design to ensure seamless functionality across various devices. The focus was on accurately replicating the user interface to provide a comparable user experience to the original Blinkit website.`,
+    programming: ["Html", "CSS", "Adavace CSS", "Bootstrap"],
     link: "https://srinijalanda93.github.io/Blinkit-clone-sept/",
   },
   {
     Date: "2020",
     prjTitle: "Apple Clone",
-    content: `Bootstrap is a free and
-   open-source CSS framework directed
-    at responsive, mobile-first front-end 
-    web development. It contains HTML, CSS
-     and JavaScript-based design templates 
-     for typography, forms, buttons, navigation,
-      and other interface components.`,
-    programming: ["HTML", "ADAVANCE CSS", "BOOTSTRAP", "Median quries"],
+    content: `An Apple clone was developed using HTML, CSS, media queries, and Bootstrap. The project aimed to create a responsive design for optimal performance across different devices. The focus was on meticulously replicating the sleek and minimalist user interface characteristic of Apple's website.`,
+    programming: ["Html", "Adavance CSS", "Bootstrap"],
     link: "https://srinijalanda93.github.io/Apple-clone-oct/",
   },
   {
     Date: "2021",
     prjTitle: "Spotify Clone",
-    content: `Bootstrap is a free and
-   open-source CSS framework directed
-    at responsive, mobile-first front-end 
-    web development. It contains HTML, CSS
-     and JavaScript-based design templates 
-     for typography, forms, buttons, navigation,
-      and other interface components.`,
-    programming: ["HTML", "ADAVANCE CSS", "BOOTSTRAP"],
+    content: `An Apple clone was developed featuring a responsive design to ensure optimal performance across various devices. The project focused on meticulously replicating the sleek and minimalist user interface characteristic of Apple's website.`,
+    programming: ["Html", "Adavance CSS", "Bootstrap",'Median queries'],
     link: "https://srinijalanda93.github.io/spotify-clone-October/",
   },
   {
@@ -131,7 +113,7 @@ export const Project = () => {
             </div>
             <div>
               <p>{project.prjTitle}</p>
-              <p style={{color:"#8396BD"}}>{project.content}</p>
+              <p style={{ color: "#8396BD" }}>{project.content}</p>
               <div className="language">
                 {project.programming.map((element, index) => (
                   <p key={index}>{element}</p>
