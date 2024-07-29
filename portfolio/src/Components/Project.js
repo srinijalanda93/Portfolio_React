@@ -32,7 +32,7 @@ let ProjectList = [
      and JavaScript-based design templates 
      for typography, forms, buttons, navigation,
       and other interface components.`,
-    programming: ["HTML", "ADAVANCE CSS", "BOOTSTRAP"],
+    programming: ["Html", "Adavance CSS", "Bootstrap","Median queries"],
     link: "https://srinijalanda93.github.io/Frontend-1-Module-Test--October-Accio/",
   },
   {
@@ -45,7 +45,7 @@ let ProjectList = [
      and JavaScript-based design templates 
      for typography, forms, buttons, navigation,
       and other interface components.`,
-    programming: ["Javascript", "HTML", "CSS", "BOOTSTRAP"],
+    programming: ["Javascript", "Html", "css", "Bootstrap"],
     link: "https://srinijalanda93.github.io/frontend-2-week-2-test-Dec/",
   },
 
